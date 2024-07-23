@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkITSP=self.webpackChunkITSP||[]).push([[693],{9693:(d,t,n)=>{n.r(t),n.d(t,{default:()=>l});const l=[{path:"",loadComponent:()=>Promise.all([n.e(592),n.e(667)]).then(n.bind(n,2667)).then(s=>s.InternalManagmentSystemComponent),children:[]}]}}]);
