@@ -103,9 +103,6 @@ nav .nav-item button.btn i {
 #solutions #software,
 #solutions #marketing {
   color: var(--font-main);
-  /* text-shadow: 2px 2px 3px rgba(93, 47, 131, 1),
-    -2px -2px 3px rgba(93, 47, 131, 1), 2px -2px 3px rgba(93, 47, 131, 1),
-    -2px 2px 3px rgba(93, 47, 131, 1); */
 }
 #solutions #digitalMarketing,
 #solutions #software,
@@ -114,11 +111,6 @@ nav .nav-item button.btn i {
   -webkit-transition: background-image 0.3s ease-in-out;
   transition: background-image 0.3s ease-in-out;
 }
-/* #solutions #digitalMarketing:hover,
-#solutions #software:hover,
-#solutions #marketing:hover {
-  background: var(--fulvous);
-} */
 #solutions #digitalMarketing:hover,
 #solutions #software:hover,
 #solutions #marketing:hover {
@@ -339,7 +331,7 @@ nav .nav-item button.btn i {
 #jobResults .allsolutions a {
   color: var(--font-main);
 }
-#jobResults #software span,
+/* #jobResults #software span,
 #jobResults #marketing span,
 #jobResults #software i,
 #jobResults #marketing i {
@@ -370,7 +362,36 @@ nav .nav-item button.btn i {
 #jobResults #digitalMarketing:hover span,
 #jobResults #digitalMarketing:hover i {
   color: var(--black);
+} */
+#jobResults #digitalMarketing,
+#jobResults #software,
+#jobResults #marketing {
+  color: var(--font-main);
 }
+#jobResults #digitalMarketing,
+#jobResults #software,
+#jobResults #marketing {
+  background-color: var(--new-gold);
+  -webkit-transition: background-image 0.3s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
+}
+#jobResults #digitalMarketing:hover,
+#jobResults #software:hover,
+#jobResults #marketing:hover {
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 91, 180, 0) 0%,
+    rgba(176, 139, 52, 0.8) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#jobResults #digitalMarketing:hover,
+#jobResults #software:hover,
+#jobResults #marketing:hover {
+  color: var(--font-main);
+}
+
 /*--------------------------------------------------------------
 # Job Details Page
 --------------------------------------------------------------*/
@@ -378,10 +399,10 @@ nav .nav-item button.btn i {
   /* background-color: #c6c6c6; */
   color: white;
 }
-#jobDetails h2 {
-  /* color: var(--black); */
+
+/* #jobDetails h2 {
   color: var(--new-gold);
-}
+} */
 
 /* #jobDetails .row div i,
 #jobDetails .row div span {
@@ -414,7 +435,7 @@ nav .nav-item button.btn i {
 #summary .layout,
 #apply .layout {
   /* background-color: rgba(0, 0, 0, 0.3); */
-  background-color: rgba(233, 134, 34, 0.3);
+  background-color: rgba(236, 215, 97, 0.1);
 }
 #summary .layout .container-fluid i,
 #apply .layout .container-fluid i {
@@ -429,7 +450,8 @@ nav .nav-item button.btn i {
 }
 #summary h2 span,
 #apply h2 span {
-  color: var(--fulvous);
+  /* color: var(--new-gold); */
+  color: black;
 }
 /* #apply form h2 span, */
 #apply form label span {

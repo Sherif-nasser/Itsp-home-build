@@ -992,7 +992,7 @@ footer .copyright {
   cursor: pointer;
 }
 #apply form button.btn {
-  background-color: var(--fulvous);
+  background-color: var(--new-gold);
   color: var(--font-main);
 }
 
